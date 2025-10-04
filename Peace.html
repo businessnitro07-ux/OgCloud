@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NitroOg — Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: #fff;
+      min-height: 100vh;
+    }
+    .container {
+      width: 100%;
+      max-width: 800px;
+      margin: auto;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* Logo / Hero */
+    .hero {
+      margin-bottom: 50px;
+    }
+    .hero img.logo {
+      width: 150px;
+      height: auto;
+      border-radius: 12px;
+      border: 3px solid #000000;
+      box-shadow: 0 0 20px #000000;
+      margin-bottom: 20px;
+    }
+    .hero h1 {
+      font-size: 2.8rem;
+      margin-bottom: 10px;
+      color: #ff2e2e;
+      text-shadow: 0 0 15px #9d4edd;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ff0000;
+    }
+
+    /* About */
+    .about {
+      background: rgba(255,255,255,0.05);
+      border-radius: 12px;
+      padding: 30px 20px;
+      margin-bottom: 50px;
+      box-shadow: 0 0 20px rgba(157,78,221,0.3);
+    }
+    .about h2 {
+      font-size: 2rem;
+      margin-bottom: 15px;
+      color: #1eff00;
+    }
+    .about p {
+      font-size: 1rem;
+      color: #ffffff;
+      line-height: 1.6;
+    }
+
+    /* Gallery / Thumbnails */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-bottom: 50px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .gallery img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ff00ff;
+    }
+
+    /* Buttons */
+    .btns {
+      margin: 40px 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+    .btns a {
+      text-decoration: none;
+      color: #fff;
+      padding: 14px 30px;
+      border-radius: 30px;
+      font-weight: bold;
+      background: linear-gradient(90deg, #9d4edd, #ff00ff);
+      box-shadow: 0 0 15px rgba(157,78,221,0.6);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .btns a:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 25px #ff00ff;
+    }
+
+    /* Footer */
+    footer {
+      margin-top: 60px;
+      font-size: 0.9rem;
+      color: #aaa;
+      padding: 20px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Hero / Logo Section -->
+    <div class="hero">
+      <!-- Use your channel logo or banner image here -->
+      <img class="logo"
+        src="https://yt3.googleusercontent.com/ry6tARneLl_sJ-zg5ZPcJwR8qgvf35rPKsk8iA_yVPO5axnBqCckPoq7LP546HnDAP26CIE8=s160-c-k-c0x00ffffff-no-rj"
+        alt="NitroOg Logo / Thumbnail">
+      <h1>NitroOg</h1>
+      <p>YouTube Web Developer • Thumbnail Maker • Creative Designer</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="about">
+      <h2>About Me</h2>
+      <p>
+        Hey, I’m <strong>NitroOg</strong>. I design modern websites and create eye-catching thumbnails 
+        that help brands and creators stand out. My work combines creativity, technology, 
+        and passion to bring ideas to life.
+      </p>
+    </div>
+
+    <!-- Gallery / Thumbnails -->
+    <h2 style="margin-bottom: 20px;">Recent Work / Thumbnails</h2>
+    <div class="gallery">
+      <img src="https://img.youtube.com/vi/mB5ylE-sdBU/maxresdefault.jpg" alt="Thumbnail 1">
+      <img src="https://img.youtube.com/vi/mp5_nAyT34g/maxresdefault.jpg" alt="Thumbnail 2">
+      <img src="https://img.youtube.com/vi/VpdEu3ggYeE/maxresdefault.jpg" alt="Thumbnail 3">
+      <img src="https://img.youtube.com/vi/hvi16sqVpGU/maxresdefault.jpg" alt="Thumbnail 4">
+    </div>
+
+    <!-- Buttons -->
+    <div class="btns">
+      <a href="https://www.youtube.com/@NitroOg07" target="_blank">My YouTube</a>
+      <a href="https://www.fiverr.com/nitroog07/buying?source=avatar_menu_profile" target="_blank">Hire Me</a>
+    </div>
+  </div>
+
+  <footer>
+    © 2025 NitroOg | Designed with ❤️ and creativity
+  </footer>
+
+</body>
+</html>
+
